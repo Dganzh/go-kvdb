@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+
+option go_package = "core/";
+
+// The greeting service definition.
+service RPC {
+  // Sends a greeting
+  rpc Call (Request) returns (Response) {}
+}
+
+// The request message containing the user's name.
+message Request {
+  string handler = 1;
+  bytes data = 2;
+}
+
+// The response message containing the greetings
+message Response {
+  bytes data = 1;
+}

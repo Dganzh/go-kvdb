@@ -1,0 +1,85 @@
+{"level":"info","time":"2021-05-09T22:26:56.027+0800","msg":"start kv db server2"}
+{"level":"info","time":"2021-05-09T22:26:56.027+0800","msg":"register name ApplyRegister"}
+{"level":"info","time":"2021-05-09T22:26:56.027+0800","msg":"register name NotifyStart"}
+{"level":"info","time":"2021-05-09T22:26:56.027+0800","msg":"register name NotifyStop"}
+{"level":"info","time":"2021-05-09T22:26:56.027+0800","msg":"register name Start"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name Stop"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register success","service name":"Manager","services":{"Manager":{}}}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name ApplyLog"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name Connect"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name CountCommitted"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name GetState"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name InstallSnapshot"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name IsLeader"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name Kill"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name Ping"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name QueryStateHandler"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name RequestVote"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name RestoreLog"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name SaveStateAndSnapshot"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name SetFollower"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name Start"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name StartRaft"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name StartSelect"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name SyncLog"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name SyncLogEx"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register success","service name":"Raft","services":{"Manager":{},"Raft":{}}}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name ExecOpAndNotify"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name Get"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name Kill"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name PutAppend"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name RestoreDB"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name Start"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register name StartServer"}
+{"level":"info","time":"2021-05-09T22:26:56.028+0800","msg":"register success","service name":"KVServer","services":{"KVServer":{},"Manager":{},"Raft":{}}}
+{"level":"info","time":"2021-05-09T22:26:56.133+0800","msg":"receive notify start from registry[localhost:5205 localhost:5206 localhost:5207]"}
+{"level":"info","time":"2021-05-09T22:26:57.125+0800","msg":"2now start=============>"}
+{"level":"info","time":"2021-05-09T22:26:57.126+0800","msg":"2send to kvserver Ok, num:0"}
+{"level":"info","time":"2021-05-09T22:26:57.126+0800","msg":"StartServer Ok"}
+{"level":"info","time":"2021-05-09T22:26:57.230+0800","msg":"args &{CandidateID:0 TermID:1 LastLogIndex:0 LastLogTerm:0}, reply &{Vote:false Term:0}\n"}
+{"level":"info","time":"2021-05-09T22:26:57.230+0800","msg":"set server2 hasvote=false, because termid upgrade: old=0, new=1\n"}
+{"level":"info","time":"2021-05-09T22:26:57.230+0800","msg":"server2 should vote=true for 0, vote state=false, args:&{CandidateID:0 TermID:1 LastLogIndex:0 LastLogTerm:0}\n"}
+{"level":"info","time":"2021-05-09T22:28:25.450+0800","msg":"receive notify stop from registry[localhost:5205 localhost:5206 localhost:5207] 2021-05-09 22:28:25.450775349 +0800 CST m=+89.426294207"}
+{"level":"info","time":"2021-05-09T22:28:26.443+0800","msg":"2now stop=============>"}
+{"level":"info","time":"2021-05-09T22:30:02.934+0800","msg":"start kv db server2"}
+{"level":"info","time":"2021-05-09T22:30:02.936+0800","msg":"register name ApplyRegister"}
+{"level":"info","time":"2021-05-09T22:30:02.936+0800","msg":"register name NotifyStart"}
+{"level":"info","time":"2021-05-09T22:30:02.936+0800","msg":"register name NotifyStop"}
+{"level":"info","time":"2021-05-09T22:30:02.937+0800","msg":"register name Start"}
+{"level":"info","time":"2021-05-09T22:30:02.937+0800","msg":"register name Stop"}
+{"level":"info","time":"2021-05-09T22:30:02.941+0800","msg":"register success","service name":"Manager","services":{"Manager":{}}}
+{"level":"info","time":"2021-05-09T22:30:02.950+0800","msg":"register name ApplyLog"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name Connect"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name CountCommitted"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name GetState"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name InstallSnapshot"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name IsLeader"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name Kill"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name Ping"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name QueryStateHandler"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name RequestVote"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name RestoreLog"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name SaveStateAndSnapshot"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name SetFollower"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name Start"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name StartRaft"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name StartSelect"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name SyncLog"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name SyncLogEx"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register success","service name":"Raft","services":{"Manager":{},"Raft":{}}}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name ExecOpAndNotify"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name Get"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name Kill"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name PutAppend"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name RestoreDB"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name Start"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register name StartServer"}
+{"level":"info","time":"2021-05-09T22:30:02.951+0800","msg":"register success","service name":"KVServer","services":{"KVServer":{},"Manager":{},"Raft":{}}}
+{"level":"info","time":"2021-05-09T22:30:04.510+0800","msg":"receive notify start from registry[localhost:5205 localhost:5206 localhost:5207]"}
+{"level":"info","time":"2021-05-09T22:30:05.066+0800","msg":"2now start=============>"}
+{"level":"info","time":"2021-05-09T22:30:05.066+0800","msg":"2send to kvserver Ok, num:0"}
+{"level":"info","time":"2021-05-09T22:30:05.066+0800","msg":"StartServer Ok"}
+{"level":"info","time":"2021-05-09T22:30:05.074+0800","msg":"receive notify start from registry[localhost:5205 localhost:5206 localhost:5207]"}
+{"level":"info","time":"2021-05-09T22:30:05.167+0800","msg":"args &{CandidateID:0 TermID:1 LastLogIndex:0 LastLogTerm:0}, reply &{Vote:false Term:0}\n"}
+{"level":"info","time":"2021-05-09T22:30:05.167+0800","msg":"set server2 hasvote=false, because termid upgrade: old=0, new=1\n"}
+{"level":"info","time":"2021-05-09T22:30:05.167+0800","msg":"server2 should vote=true for 0, vote state=false, args:&{CandidateID:0 TermID:1 LastLogIndex:0 LastLogTerm:0}\n"}
