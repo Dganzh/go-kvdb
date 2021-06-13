@@ -6,3 +6,7 @@
 3. stop all and exit  
    curl localhost:5200/stop_all
 
+
+## TODO
+- optimize persist
+
