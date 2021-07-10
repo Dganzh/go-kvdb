@@ -1,0 +1,33 @@
+{"level":"info","time":"2021-05-09T22:29:59.009+0800","msg":"start registry"}
+{"level":"info","time":"2021-05-09T22:29:59.009+0800","msg":"register name NotifyAllStart"}
+{"level":"info","time":"2021-05-09T22:29:59.009+0800","msg":"register name NotifyAllStop"}
+{"level":"info","time":"2021-05-09T22:29:59.010+0800","msg":"register name RegisterHandler"}
+{"level":"info","time":"2021-05-09T22:29:59.010+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
+{"level":"info","time":"2021-05-09T22:30:03.055+0800","msg":"register ","addr":"localhost:5207"}
+{"level":"info","time":"2021-05-09T22:30:03.074+0800","msg":"all server notify finish"}
+{"level":"info","time":"2021-05-09T22:30:04.053+0800","msg":"register ","addr":"localhost:5205"}
+{"level":"info","time":"2021-05-09T22:30:04.062+0800","msg":"register ","addr":"localhost:5206"}
+{"level":"info","time":"2021-05-09T22:30:04.064+0800","msg":"ends: map[0:localhost:5205 1:localhost:5206 2:localhost:5207], addrs: [localhost:5205 localhost:5206 localhost:5207]\n"}
+{"level":"info","time":"2021-05-09T22:30:04.080+0800","msg":"ends: map[0:localhost:5205 1:localhost:5206 2:localhost:5207], addrs: [localhost:5205 localhost:5206 localhost:5207]\n"}
+{"level":"info","time":"2021-05-09T22:30:04.547+0800","msg":"all server notify finish"}
+{"level":"info","time":"2021-05-09T22:30:05.076+0800","msg":"all server notify finish"}
+{"level":"info","time":"2021-07-07T22:22:11.416+0800","msg":"start registry"}
+{"level":"info","time":"2021-07-07T22:22:11.416+0800","msg":"register name NotifyAllStart"}
+{"level":"info","time":"2021-07-07T22:22:11.416+0800","msg":"register name NotifyAllStop"}
+{"level":"info","time":"2021-07-07T22:22:11.416+0800","msg":"register name RegisterHandler"}
+{"level":"info","time":"2021-07-07T22:22:11.417+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
+{"level":"info","time":"2021-07-07T22:22:25.919+0800","msg":"start registry"}
+{"level":"info","time":"2021-07-07T22:22:25.920+0800","msg":"register name NotifyAllStart"}
+{"level":"info","time":"2021-07-07T22:22:25.920+0800","msg":"register name NotifyAllStop"}
+{"level":"info","time":"2021-07-07T22:22:25.920+0800","msg":"register name RegisterHandler"}
+{"level":"info","time":"2021-07-07T22:22:25.920+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
+{"level":"info","time":"2021-07-11T01:23:48.364+0800","msg":"start registry"}
+{"level":"info","time":"2021-07-11T01:23:48.365+0800","msg":"register name NotifyAllStart"}
+{"level":"info","time":"2021-07-11T01:23:48.365+0800","msg":"register name NotifyAllStop"}
+{"level":"info","time":"2021-07-11T01:23:48.365+0800","msg":"register name RegisterHandler"}
+{"level":"info","time":"2021-07-11T01:23:48.365+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
+{"level":"info","time":"2021-07-11T01:24:04.733+0800","msg":"start registry"}
+{"level":"info","time":"2021-07-11T01:24:04.733+0800","msg":"register name NotifyAllStart"}
+{"level":"info","time":"2021-07-11T01:24:04.733+0800","msg":"register name NotifyAllStop"}
+{"level":"info","time":"2021-07-11T01:24:04.733+0800","msg":"register name RegisterHandler"}
+{"level":"info","time":"2021-07-11T01:24:04.733+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
