@@ -51,3 +51,8 @@
 {"level":"info","time":"2021-07-17T15:38:41.033+0800","msg":"register name NotifyAllStop"}
 {"level":"info","time":"2021-07-17T15:38:41.033+0800","msg":"register name RegisterHandler"}
 {"level":"info","time":"2021-07-17T15:38:41.033+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
+{"level":"info","time":"2021-07-24T23:45:38.707+0800","msg":"start registry"}
+{"level":"info","time":"2021-07-24T23:45:38.708+0800","msg":"register name NotifyAllStart"}
+{"level":"info","time":"2021-07-24T23:45:38.708+0800","msg":"register name NotifyAllStop"}
+{"level":"info","time":"2021-07-24T23:45:38.708+0800","msg":"register name RegisterHandler"}
+{"level":"info","time":"2021-07-24T23:45:38.708+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
