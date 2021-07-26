@@ -56,3 +56,13 @@
 {"level":"info","time":"2021-07-24T23:45:38.708+0800","msg":"register name NotifyAllStop"}
 {"level":"info","time":"2021-07-24T23:45:38.708+0800","msg":"register name RegisterHandler"}
 {"level":"info","time":"2021-07-24T23:45:38.708+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
+{"level":"info","time":"2021-07-26T23:43:01.142+0800","msg":"start registry"}
+{"level":"info","time":"2021-07-26T23:43:01.143+0800","msg":"register name NotifyAllStart"}
+{"level":"info","time":"2021-07-26T23:43:01.143+0800","msg":"register name NotifyAllStop"}
+{"level":"info","time":"2021-07-26T23:43:01.143+0800","msg":"register name RegisterHandler"}
+{"level":"info","time":"2021-07-26T23:43:01.143+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
+{"level":"info","time":"2021-07-26T23:43:07.203+0800","msg":"start registry"}
+{"level":"info","time":"2021-07-26T23:43:07.207+0800","msg":"register name NotifyAllStart"}
+{"level":"info","time":"2021-07-26T23:43:07.207+0800","msg":"register name NotifyAllStop"}
+{"level":"info","time":"2021-07-26T23:43:07.207+0800","msg":"register name RegisterHandler"}
+{"level":"info","time":"2021-07-26T23:43:07.207+0800","msg":"register success","service name":"Registry","services":{"Registry":{}}}
