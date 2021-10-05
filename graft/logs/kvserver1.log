@@ -1,0 +1,35 @@
+{"level":"info","time":"2021-10-05T20:05:55.670+0800","msg":"start kv db server1"}
+{"level":"info","time":"2021-10-05T20:05:55.671+0800","msg":"register name ApplyRegister"}
+{"level":"info","time":"2021-10-05T20:05:55.671+0800","msg":"register name NotifyStart"}
+{"level":"info","time":"2021-10-05T20:05:55.671+0800","msg":"register name NotifyStop"}
+{"level":"info","time":"2021-10-05T20:05:55.671+0800","msg":"register name Start"}
+{"level":"info","time":"2021-10-05T20:05:55.671+0800","msg":"register name Stop"}
+{"level":"info","time":"2021-10-05T20:05:55.671+0800","msg":"register success","service name":"Manager","services":{"Manager":{}}}
+{"level":"info","time":"2021-10-05T20:05:55.671+0800","msg":"register name ApplyLog"}
+{"level":"info","time":"2021-10-05T20:05:55.671+0800","msg":"register name Connect"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name CountCommitted"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name GetState"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name InstallSnapshot"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name IsLeader"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name Kill"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name Ping"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name QueryStateHandler"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name RequestVote"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name RestoreLog"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name SaveStateAndSnapshot"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name SetFollower"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name Start"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name StartRaft"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name StartSelect"}
+{"level":"info","time":"2021-10-05T20:05:55.672+0800","msg":"register name SyncLog"}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register name SyncLogEx"}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register success","service name":"Raft","services":{"Manager":{},"Raft":{}}}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register name ExecOpAndNotify"}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register name Get"}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register name Kill"}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register name PutAppend"}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register name RestoreDB"}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register name Start"}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register name StartServer"}
+{"level":"info","time":"2021-10-05T20:05:55.673+0800","msg":"register success","service name":"KVServer","services":{"KVServer":{},"Manager":{},"Raft":{}}}
+{"level":"fatal","time":"2021-10-05T20:05:55.707+0800","msg":"RPC call handler=Registry.RegisterHandler, failed: rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:5201: connect: connection refused\""}
